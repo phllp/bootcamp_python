@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Index</title>
+</head>
+<body>
+    <h1>Users</h1>
+
+    {% if nome %}
+      <h2>Nome: {{nome}}</h2>
+    {% endif %}
+    {% if telefone %}
+      <h2>Telefone: {{telefone}}</h2>
+    {% endif %}
+    {% if email %}
+      <h2>Email: {{email}}</h2>
+    {% endif %}
+
+    {% if id %}
+      <h2>Id: {{id}}</h2>
+    {% endif %}
+
+</body>
+</html>
